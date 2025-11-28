@@ -1,0 +1,28 @@
+{
+  "Map Wipe": {
+    "Title Text": "<size=22>Вайп карты</size> \n <size=11>Изменится только карта, весь прогресс останется.</size>",
+    "Date Text": "<size=14>  Каждые 3 дня</size>",
+    "Time Text": "<size=14>  12:00 по МСК</size>",
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panels Color": "0.19 0.19 0.19 0.85",
+    "Main Icon URL": "https://i.imgur.com/yxg2gyM.png",
+    "Date Icon URL": "https://i.ibb.co/N97bTzY/dateicon.png",
+    "Time Icon URL": "https://i.ibb.co/n3FXkfn/timeicon.png"
+  },
+  "BP Wipe": {
+    "Title Text": "<size=22>Глобальный вайп</size> \n <size=11>Весь прогресс будет стерт</size>",
+    "Date Text": "<size=14>  Каждый месяц \n  Первый понедельник</size>",
+    "Time Text": "<size=14>  12:00 по МСК</size>",
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panels Color": "0.19 0.19 0.19 0.85",
+    "Main Icon URL": "https://i.ibb.co/m6jw3W3/bpwipeicon.png",
+    "Date Icon URL": "https://i.ibb.co/N97bTzY/dateicon.png",
+    "Time Icon URL": "https://i.ibb.co/n3FXkfn/timeicon.png"
+  },
+  "Other": {
+    "Top Title Text": "Расписание вайпов",
+    "Countdown Text": "Следующий вайп через {countdown}",
+    "Font Outline Color": "0 0 0 1",
+    "Font Outline Thickness": "1"
+  }
+}

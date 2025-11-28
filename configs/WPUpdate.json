@@ -1,0 +1,12 @@
+{
+  "Update Panel": {
+    "Title Text": "<size=22>ПОСЛЕДНЕЕ ОБНОВЛЕНИЕ</size>",
+    "Description Text": "<size=14>Новое начало?</size>",
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panel Color": "0.19 0.19 0.19 0.85",
+    "Icon URL": "https://i.imgur.com/QQARxIG.png",
+    "Detailed Title Text": "<size=20>Новое начало?</size>",
+    "Second Icon URL": "https://i.imgur.com/h5oom2U.png",
+    "Detailed First String": "<size=12>После долгого перерыва мы вновь вернулись с обновленным дизайном, свежей концепцией и новой историей.</size>"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "Main Settings": {
+    "Open when player joins": true,
+    "Open once per wipe": false,
+    "Open at tab": 1,
+    "Block movement when browsing panel": false,
+    "Enable text tags": true,
+    "Server Title": "<size=65><b>RUST CHILL</b></size>",
+    "Server Logo": "https://i.imgur.com/IldSEXT.png",
+    "Selected button color": "0.757 0.259 0.161 1.00",
+    "Base Command": "menu",
+    "Additional Commands": {
+      "wipe": 2,
+      "kits": 3,
+      "social": 4,
+      "donate": 5
+    }
+  },
+  "Text Tabs": [
+    {
+      "Name": "<size=22>ГЛАВНАЯ</size>",
+      "Icon": "",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "0.5",
+      "Font": "robotocondensed-bold.ttf",
+      "Text Background Image": "",
+      "Text Alignment": 3,
+      "Text Lines": [
+        [
+          "<size=45>RUST CHILL</size> ",
+          "<size=25>Вайпы В Понедельник и Четверг в 12:00 по МСК</size>",
+          "<size=25>Ограничений в команде нет</size>",
+          "<size=25>текущий онлайн: {online}</size> ",
+          "<size=25>Рейты x5</size> ",
+          "\n",
+          "\n",
+          "<size=15>Сервер находится в Москве. Чертежи удаляются ежемесячно. Посмотрите нашу информационную панель, чтобы узнать больше о сервере. Если у вас остались вопросы, присоединяйтесь к нашему дискорду, и мы с радостью поможем вам.</size>"
+        ]
+      ],
+      "Addon (plugin name)": "home"
+    },
+    {
+      "Name": "<size=22>ВАЙПЫ</size>",
+      "Icon": "",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "0.5",
+      "Font": "robotocondensed-regular.ttf",
+      "Text Background Image": "",
+      "Text Alignment": 4,
+      "Text Lines": [
+        [
+          "<size=45>Text Alignment</size>",
+          "",
+          "<size=18>You can set various text alignments inside config file.</size>",
+          "<size=18>There is 9 available settings, each one is defined by number (0 to 8)</size>",
+          "",
+          "<size=17>UpperLeft - 0</size>\n<size=17>UpperCenter - 1</size>\n<size=17>UpperRight - 2</size>",
+          "<size=17>MiddleLeft - 3</size>\n<size=17>MiddleCenter - 4</size>\n<size=17>MiddleRight - 5</size>",
+          "<size=17>LowerLeft - 6</size>\n<size=17>LowerCenter - 7</size>\n<size=17>LowerRight - 8</size>",
+          "",
+          ""
+        ]
+      ],
+      "Addon (plugin name)": "wipecycle"
+    },
+    {
+      "Name": "<size=22>ССЫЛКИ</size>",
+      "Icon": "",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "0.5",
+      "Font": "robotocondensed-regular.ttf",
+      "Text Background Image": "https://rustplugins.net/products/welcomepanellite/1/richtext.png",
+      "Text Alignment": 3,
+      "Text Lines": [
+        [
+          "<size=45><b>Text Style</b></size>",
+          "Text in Rust plugins can be styled with standard rich text tags, it's similar to HTML. Every tag must be closed at the end of text line, otherwise none of the tags will work and they will be shown as regular text. If you ever encounter this issue, please do not reach out to support for help and double check your text lines instead.",
+          "",
+          "  Available Tags",
+          "\n\n\n\n\n\n\n\n\n",
+          "  Available Fonts <size=9>(fonts are applied to whole page)</size>\n",
+          "    <b>robotocondensed-bold.ttf</b>",
+          "    <b>robotocondensed-regular.ttf</b>",
+          "    <b>permanentmarker.ttf</b>",
+          "    <b>droidsansmono.ttf</b>"
+        ]
+      ],
+      "Addon (plugin name)": "sociallinks"
+    },
+    {
+      "Name": "<size=22>ПРИВИЛЕГИИ</size>",
+      "Icon": "",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "0.5",
+      "Font": "robotocondensed-regular.ttf",
+      "Text Background Image": "https://rustplugins.net/products/welcomepanellite/1/enableaddons.png",
+      "Text Alignment": 0,
+      "Text Lines": [
+        [
+          "<size=45><b>How to enable addons</b></size>",
+          "Each tab has addon option right under text line. Simply put addon name in there.",
+          "You can find list of addon names in plugin description."
+        ]
+      ],
+      "Addon (plugin name)": "vipranks"
+    },
+    {
+      "Name": "<size=22>ОБНОВЛЕНИЯ</size>",
+      "Icon": "",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "0.5",
+      "Font": "robotocondensed-regular.ttf",
+      "Text Background Image": "",
+      "Text Alignment": 3,
+      "Text Lines": [
+        [
+          "<size=45><b>ОТКРЫТИЕ</b></size>",
+          "Рады сообщить, что мы открылись! Надеемся, вам понравится наш сервер и вы захотите остаться с нами!"
+        ]
+      ],
+      "Addon (plugin name)": "update"
+    },
+    {
+      "Name": "<size=19>  ПРАВИЛА</size>",
+      "Icon": "https://i.imgur.com/2vdBkMi.png",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "0.5",
+      "Font": "robotocondensed-bold.ttf",
+      "Text Background Image": "",
+      "Text Alignment": 3,
+      "Text Lines": [
+        [
+          "<size=45><b>ОСНОВНАЯ ИНФОРМАЦИЯ</b></size>",
+          "0.1  Перед заходом на сервер, проверьте наличие программы Discord на вашем ПК. Это необходимо для проверки вашего ПК на наличие запрещённого ПО.",
+          "0.2  Вам дается не более 2 минут на то, чтобы связаться с модератором/администратором в программе Discord.",
+          "0.3  Запрещено покидать сервер во время проверки без разрешения модератора/администратора.",
+          "0.4  Если вас вызвали на проверку, вы обязаны выполнять все действия, которые просит выполнить модератор/администратор (скачивать и запускать стороннее ПО, необходимое для проверки, такие как Rustcheatcheck, смотреть личные данные и т.д).",
+          "0.5  Запрещено добавлять посторонних людей на проверку. Проверка производится 1 на 1, по необходимости могут присутствовать другие модераторы/администраторы проекта."
+        ],
+        [
+          "<size=45><b>ОСНОВАНЫЕ ПАВИЛА СЕРВЕРА</b></size>",
+          "1.1  Запрещено использование/хранение/распространение стороннего ПО или любые другие средства (читы или макросы), позволяющие получить преимущество над другими игроками. За нарушение этого правила, вы получите бан на нашем проекте. Так же запрещено использовать крякнутый чекер",
+          "1.2  При наличии покупки, рекламы, подписки на запрещенное ПО модератор/администратор в праве выдать бан на проекте. Так же запрещена переписка с реселлерами читов/макросов.",
+          "1.3  Если при проверке у игрока были найдены следы удаленных файлов макросов или читов, модерация/администрация имеет право выдать вам бан на нашем проекте.",
+          "1.4  Если у игрока имеются баны на других проектах, либо же EAC баны на других аккаунтах, модерация/администрация сервера имеет право вас забанить на нашем проекте.",
+          "1.5  Модерация/администрация имеет право забанить команду, за игру с читером, если имеются док-ва того, что вы знали о том что игрок играет с читами и намеренно продолжали играть с ним.",
+          "1.6  Запрещено использование багов игры/сервера (строиться/хранить лут в текстурах, камнях, скалах и фундаментах, а так-же использовать другие баги игры/сервера, которые дают преимущество над другими игроками). За нарушение данного правила модерация/администрация в праве выдать вам и вашей команде бан на нашем проекте (срок на усмотрение администрации).",
+          "1.7  При неадекватном поведении на проверке игрок может быть забанен навсегда модерацией/администрацией проекта.",
+          "1.8  Запрещен стрим-снайпинг стримеров которые играют на проекте."
+        ],
+        [
+          "<size=45><b>ПРАВИЛА ЧАТА</b></size>",
+          "2.1  Запрещено пускать ложные слухи/сведения о вайпе, сервере или действиях Администрации/Модерации.",
+          "2.2  Запрещено рекламировать любые проекты, не связанные с RUST CHILL.",
+          "2.3  Запрещено выдавать себя за администратора, модератора, если Вы на самом деле им не являетесь.",
+          "2.4  Запрещено оскорблять игроков/модерацию/администрацию/родителей/сервер, а так же спамить в чат.",
+          "2.5  Запрещено использование нецензурных слов, либо оскорблений в нике.",
+          "2.6  Запрещено использовать чужие ник и аватарку, выдавая себя за другого игрока.",
+          "2.7  Запрещено выдавать себя за администратора или модератора.",
+          "2.8  Запрещено писать, что вы играете с читами или макросами."
+        ],
+        [
+          "<size=45><b>ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</b></size>",
+          "3.1  Администраторы сервера сами решают, как наказать игрока за то или иное нарушение правил. Игрок может отделаться простым предупреждением, а может и попасть в бессрочный бан.",
+          "3.2  Администраторы сервера имеют право в любой момент изменить правила сервера.",
+          "3.3  Администраторы сервера не возвращают утерянный лут.",
+          "3.4  Администраторы в любой момент имеют право проверить Ваш ПК на наличие читов. Отказ от проверки карается баном.",
+          "3.5  Вещи, купленные в магазине, не подлежат возврату или обмену, после вайпа не возвращаются, так же, если вы их случайно потеряли.",
+          "3.6  Игровой сервер может быть остановлен, перезагружен или удален в любое время.",
+          "3.7  Играя на наших серверах, Вы автоматически соглашаетесь с правилами сервера, так-же с изменениями в правилах."
+        ]
+      ],
+      "Addon (plugin name)": ""
+    },
+    {
+      "Name": "КОМАНДЫ",
+      "Icon": "",
+      "Font Size": 12,
+      "Font Color": "1 1 1 1",
+      "Font Outline Color": "0 0 0 1",
+      "Font Outline Thickness": "1",
+      "Font": "robotocondensed-regular.ttf",
+      "Text Background Image": "",
+      "Text Alignment": 3,
+      "Text Lines": [
+        [
+          "<size=45><b>ПОЛЕЗНЫЕ БИНДЫ</b></size>",
+          "",
+          "",
+          "<size=25><b>Меню сервера <color='#c23f2bff'>bind KEY chat.say /menu</color></b></size>",
+          "<size=25><b>Список китов <color='#c23f2bff'>bind KEY chat.say /kit</color></b></size>",
+          "<size=25><b>Вкл/Выкл режим удаления <color='#c23f2bff'>bind KEY chat.say /remove</color></b></size>"
+        ],
+        [
+          "<size=45><b>СПИСОК КОМАНД ДЛЯ ДРУЗЕЙ</b></size>",
+          "",
+          "",
+          "<size=25><b>Пригласить игрока в команду <color='#c23f2bff'>/friend add <ник></color></b></size>",
+          "<size=25><b>Принять приглашение <color='#c23f2bff'>/friend accept</color></b></size>",
+          "<size=25><b>Отклонить предложение <color='#c23f2bff'>/friend reject</color></b></size>",
+          "<size=25><b>Исключить игрока из команды <color='#c23f2bff'>/friend remove <ник></color></b></size>",
+          "<size=25><b>Показать список друзей <color='#c23f2bff'>/friend list</color></b></size>"
+        ],
+        [
+          "<size=45><b>СПИСОК КОМАНД ТЕЛЕПОРТАЦИИ</b></size>",
+          "",
+          "",
+          "<size=25><b>Отправить запрос на телепортацию <color='#c23f2bff'>/tpr <ник></color></b></size>",
+          "<size=25><b>Принять запрос  на телепортацию <color='#c23f2bff'>/tpa</color></b></size>",
+          "<size=25><b>Отменить телепортацию <color='#c23f2bff'>/tpc</color></b></size>",
+          "<size=25><b>Сохранить дом <color='#c23f2bff'>/sethome name</color></b></size>",
+          "<size=25><b>Удалить дом <color='#c23f2bff'>/removehome name</color></b></size>",
+          "<size=25><b>Показать дома <color='#c23f2bff'>/homelist</color></b></size>",
+          "<size=25><b>Телепортация на дом <color='#c23f2bff'>/home name</color></b></size>"
+        ],
+        [
+          "<size=45><b>ПРОЧИЕ КОМАНДЫ</b></size>",
+          "",
+          "",
+          "<size=25><b>Меню китов <color='#c23f2bff'>/kit</color></b></size>",
+          "<size=25><b>Получить кит <color='#c23f2bff'>/kit name</color></b></size>",
+          "<size=25><b>Отправить жалобу <color='#c23f2bff'>/report <ник></color></b></size>",
+          "<size=25><b>Отправить запрос на обмен <color='#c23f2bff'>/trade <ник></color></b></size>",
+          "<size=25><b>Смена скина <color='#c23f2bff'>/skin</color></b></size>",
+          "<size=25><b>Карманный переработчик <color='#c23f2bff'>/rec</color></b></size>",
+          "<size=25><b>Собственный мини-коптер <color='#c23f2bff'>/mymini</color></b></size>"
+        ]
+      ],
+      "Addon (plugin name)": ""
+    }
+  ],
+  "Base Ui Elements": {
+    "background": {
+      "Color": "0.114 0.110 0.102 0.993",
+      "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
+      "Image": "",
+      "Anchor Min": "0 0",
+      "Anchor Max": "1 1",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.2,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": null
+    },
+    "offset_container": {
+      "Color": "0 0 0 0",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "https://i.imgur.com/emPWaFZ.png",
+      "Anchor Min": "0.5 0.5",
+      "Anchor Max": "0.5 0.5",
+      "Offset Min": "-680 -360",
+      "Offset Max": "680 360",
+      "Fade": 0.2,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": null
+    },
+    "main": {
+      "Color": "0 0 0 0",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "",
+      "Anchor Min": "0.22 0",
+      "Anchor Max": "1 1",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.2,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": null
+    },
+    "side": {
+      "Color": "0 0 0 0",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "",
+      "Anchor Min": "0 0",
+      "Anchor Max": "0.22 1",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.1,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": null
+    },
+    "content": {
+      "Color": "0 0 0 0.0",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "",
+      "Anchor Min": "0.42 0.095",
+      "Anchor Max": "0.94 0.748",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.0,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": null
+    },
+    "title": {
+      "Color": "0 0 0 0",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "",
+      "Anchor Min": "0.104 0.849",
+      "Anchor Max": "0.453 0.955",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.2,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 3,
+      "Text Font (not for panels)": "robotocondensed-regular.ttf"
+    },
+    "logo": {
+      "Color": "0 0 0 0",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": null,
+      "Anchor Min": "0.040 0.859",
+      "Anchor Max": "0.089 0.946",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.2,
+      "Text (not for panels)": null,
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": null
+    },
+    "close_button": {
+      "Color": "0.14 0.14 0.14 1",
+      "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
+      "Image": "",
+      "Anchor Min": "0.479 0.008",
+      "Anchor Max": "0.621 0.088",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.2,
+      "Text (not for panels)": "Закрыть",
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": "robotocondensed-bold.ttf"
+    },
+    "next_button": {
+      "Color": "0.14 0.14 0.14 1",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "https://rustplugins.net/products/welcomepanellite/1/next.png",
+      "Anchor Min": "0.97 0.005",
+      "Anchor Max": "1 0.053",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.0,
+      "Text (not for panels)": "",
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": "robotocondensed-bold.ttf"
+    },
+    "back_button": {
+      "Color": "0.14 0.14 0.14 1",
+      "Material": "assets/icons/iconmaterial.mat",
+      "Image": "https://rustplugins.net/products/welcomepanellite/1/back.png",
+      "Anchor Min": "0.935 0.005",
+      "Anchor Max": "0.965 0.053",
+      "Offset Min": "0 0",
+      "Offset Max": "0 0",
+      "Fade": 0.0,
+      "Text (not for panels)": "",
+      "Text Alignment (not for panels)": 4,
+      "Text Font (not for panels)": "robotocondensed-bold.ttf"
+    }
+  },
+  "Tab Buttons": [
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.4345 0.88",
+      "Anchor Max": "0.5195 0.938",
+      "Material": "assets/icons/iconmaterial.mat"
+    },
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.5195 0.875",
+      "Anchor Max": "0.6245 0.942",
+      "Material": "assets/icons/iconmaterial.mat"
+    },
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.6245 0.875",
+      "Anchor Max": "0.7295 0.942",
+      "Material": "assets/icons/iconmaterial.mat"
+    },
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.7295 0.875",
+      "Anchor Max": "0.8395 0.942",
+      "Material": "assets/icons/iconmaterial.mat"
+    },
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.8395 0.875",
+      "Anchor Max": "0.9395 0.942",
+      "Material": "assets/icons/iconmaterial.mat"
+    },
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.041 0.103",
+      "Anchor Max": "0.183 0.179",
+      "Material": "assets/icons/iconmaterial.mat"
+    },
+    {
+      "Color": "0 0 0 0",
+      "Text Alignment": 4,
+      "Text Font": "robotocondensed-bold.ttf",
+      "Anchor Min": "0.201 0.103",
+      "Anchor Max": "0.343 0.179",
+      "Material": "assets/icons/iconmaterial.mat"
+    }
+  ]
+}

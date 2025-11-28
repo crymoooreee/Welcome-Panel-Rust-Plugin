@@ -1,0 +1,11 @@
+{
+  "General Settings": {
+    "Countdown (seconds)": 259200,
+    "Global Response Enabled": false,
+    "Global Response Text": "<size=20><color=#FF5733>RUST CHILL</color></size> \n Следующий вайп через <color=#FFE49B>{countdown}</color>",
+    "Global Response Icon": 76561199136807947,
+    "Global Response Cooldown": 3600,
+    "Keyword To Trigger Response": "wipe",
+    "Reset Countdown on Map Change": true
+  }
+}

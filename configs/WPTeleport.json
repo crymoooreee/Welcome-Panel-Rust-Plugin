@@ -1,0 +1,22 @@
+{
+  "Buttons": [
+    {
+      "Name": "Button1",
+      "Text": "Click Me 1",
+      "Color": "0.5 0.5 0.5 1",
+      "Size": 12,
+      "Anchor Min": "0.1 0.1",
+      "Anchor Max": "0.2 0.2",
+      "Command": "command1"
+    },
+    {
+      "Name": "Button2",
+      "Text": "Click Me 2",
+      "Color": "0.5 0.5 0.5 1",
+      "Size": 12,
+      "Anchor Min": "0.3 0.1",
+      "Anchor Max": "0.4 0.2",
+      "Command": "command2"
+    }
+  ]
+}

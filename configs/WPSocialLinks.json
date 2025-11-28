@@ -1,0 +1,35 @@
+{
+  "Panel #1": {
+    "Enabled": true,
+    "Text Field": "<size=22>DISCORD</size> \n <size=9>Ссылка на наш Discord сервер</size>",
+    "Icon Image": "https://i.ibb.co/pRYmCBx/discordicon.png",
+    "Button Text": "Получить ссылку",
+    "Note Text": "\n \n https://discord.gg/RBbV8sY3wS \n \n Скопируйте ссылку из записки.",
+    "Note Name": "DISCORD",
+    "Note Skin ID / Icon": 2391705198,
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panel Color": "0.19 0.19 0.19 0.85",
+    "Button Color": "0.16 0.34 0.49 0.80"
+  },
+  "Panel #2": {
+    "Enabled": true,
+    "Text Field": "<size=22>Магазин</size> \n <size=9>Наш магазин внутриигровых предметов</size>",
+    "Icon Image": "https://i.ibb.co/x3ydpLw/shopicon.png",
+    "Button Text": "Получить ссылку",
+    "Note Text": "\n \n steamgroup.link \n \n Скопируйте ссылку из записки.",
+    "Note Name": "Ссылка на магазин",
+    "Note Skin ID / Icon": 2543321437,
+    "Main Panel Color": "0.25 0.25 0.25 0.65",
+    "Secondary Panel Color": "0.19 0.19 0.19 0.85",
+    "Button Color": "0.16 0.34 0.49 0.80"
+  },
+  "Other": {
+    "Send Chat Message instead of Note": false,
+    "Close WelcomePanel after clicking GET LINK button": false,
+    "Pop up window message": "Записка была помещенна в ваш инвентарь.",
+    "Title Text": "Вы можете найти нас здесь.",
+    "Footer Text": "",
+    "Font Outline Color": "0 0 0 1",
+    "Font Outline Thickness": "1"
+  }
+}

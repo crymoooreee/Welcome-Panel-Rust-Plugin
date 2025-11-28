@@ -1,0 +1,17 @@
+{
+  "Panel Settings": {
+    "Main Panel Color": "0.1 0.1 0.1 0.95",
+    "Secondary Panel Color": "0.15 0.15 0.15 0.9",
+    "Text Color": "1 1 1 1",
+    "Font Size": 14
+  },
+  "SimpleStats Settings": {
+    "Enabled": true,
+    "Require SimpleStats Addon Enabled": true,
+    "Required Stats": [
+      "kills",
+      "deaths",
+      "playtime"
+    ]
+  }
+}
